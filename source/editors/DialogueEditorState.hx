@@ -99,11 +99,6 @@ class DialogueEditorState extends MusicBeatState
 		animText.scrollFactor.set();
 		add(animText);
 		changeText();
-
-		#if android
-                addVirtualPad(FULL, A_B_C);
-                #end
-
 		super.create();
 	}
 
